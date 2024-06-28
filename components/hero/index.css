@@ -1,0 +1,7 @@
+/* Add this in your global CSS file */
+.text-gradient {
+    background: linear-gradient(to right, #6366F1, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
