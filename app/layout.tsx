@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
         template: "%s | Shakhzodbek Sharipov"
     },
-    description: "Visit my personal portfolio to learn more about me",
+    description: "Take a look at my personal website & get to know more about me",
     openGraph: {
         images: [
             {
