@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: {
         default: "Shakhzodbek Sharipov - Software Engineer",
 
-        template: "%s | Shakhzodbek Sharipov"
+        template: "%s | Shakhzodbek Sharipov - Software Engineer"
     },
     description: "Take a look at my personal website & get to know more about me",
     openGraph: {
