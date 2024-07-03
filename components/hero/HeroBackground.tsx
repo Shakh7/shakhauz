@@ -48,14 +48,14 @@ export function HeroBackground() {
                     Building
                     <LinkPreview url="https://shakha.uz"
                                  className="ms-2 font-bold bg-clip-text text-transparent
-                             text-gradient" height="150" width="220"
+                             text-gradient" height={150} width={220}
                     >
                         Shakha
                     </LinkPreview>{" "}
                     and
                     <LinkPreview url="https://system.interrail.uz"
                                  className="ms-2 font-bold bg-clip-text text-transparent
-                             text-gradient" height="150" width="350"
+                             text-gradient" height={150} width={350}
                     >
                         InterRail CA
                     </LinkPreview>{" "}
