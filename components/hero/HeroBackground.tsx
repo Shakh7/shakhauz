@@ -16,7 +16,7 @@ export function HeroBackground() {
         <div
             className="h-[36rem] xl:h-[50rem] w-full
             dark:bg-black bg-white
-            dark:bg-grid-white/[0.1] bg-grid-black/[0.5] relative flex items-start mt-0 sm:pt-24">
+            dark:bg-grid-white/[0.09] bg-grid-black/[0.09] relative flex items-start mt-0 sm:pt-24">
             {/* Radial gradient for the container to give a faded look */}
 
             <div
