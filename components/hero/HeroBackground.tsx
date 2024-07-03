@@ -70,7 +70,7 @@ export function HeroBackground() {
                 <p
                     className="leading-loose 2xl:leading-loose font-regular text-start text-sm
                 2xl:text-lg dark:text-white/75 text-zinc-700 tracking-wide max-w-3xl
-                2xl:max-w-4xl antialiased mt-10">
+                2xl:max-w-4xl antialiased my-10">
                     Building
                     <LinkPreview url="https://shakha.uz"
                                  className="ms-2 font-bold bg-clip-text text-transparent
