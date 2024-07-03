@@ -25,7 +25,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        spotlight: "spotlight 2s ease .75s 1 forwards",
+        spotlight: "spotlight 1s ease .75s 1 forwards",
       },
       keyframes: {
         spotlight: {

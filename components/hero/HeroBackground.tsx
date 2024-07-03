@@ -36,9 +36,8 @@ export function HeroBackground() {
 
 
                 <TextGenerateEffect
-                    className="flex flex-wrap gap-1 font-regular text-sm 2xl:text-lg text-zinc-500 max-w-3xl 2xl:max-w-4xl
+                    className="flex flex-wrap gap-1 leading-loose 2xl:leading-loose font-regular text-sm 2xl:text-lg text-zinc-500 max-w-3xl 2xl:max-w-4xl
                     antialiased"
-                    indices={[6, 7]}
                     words={about_me}
                 />
 

@@ -9,7 +9,7 @@ export const TextGenerateEffect = ({
                                        className,
                                    }: {
     words: string;
-    indices: number[];
+    indices?: number[];
     className?: string;
 }) => {
     const [scope, animate] = useAnimate();
@@ -35,7 +35,7 @@ export const TextGenerateEffect = ({
                     return (
                         <motion.span
                             key={word + idx}
-                            className={cn('opacity-0', indices.includes(idx) ? 'text-gradient' : '')}
+                            className={cn('opacity-0', indices?.includes(idx) ? 'text-gradient' : '')}
                         >
                             {word}
                             {" "}
