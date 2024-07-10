@@ -6,9 +6,9 @@ const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
     title: {
-        default: "Shakhzodbek Sharipov - Software Engineer",
+        default: "Shakhzodbek Sharipov - Full-stack web developer",
 
-        template: "%s | Shakhzodbek Sharipov - Software Engineer"
+        template: "%s | Shakhzodbek Sharipov - Full-stack web developer"
     },
     description: "Take a look at my personal website & get to know more about me",
     openGraph: {

@@ -34,7 +34,7 @@ function Navbar({className, open, setOpen}: {
         {
             id: 1,
             name: "Shakhzodbek Sharipov",
-            designation: "Software Developer",
+            designation: "Full-stack web developer",
             image: "https://raw.githubusercontent.com/Shakh7/assets/main/Sh.Shakhzodbek.jpg"
         },
     ]
@@ -53,7 +53,7 @@ function Navbar({className, open, setOpen}: {
                                 </div>
                                 <div className="flex flex-col gap-0">
                                     <h1 className="dark:text-white/95 text-zinc-700 font-bold text-lg mb-0">Sh.Shakhzodbek</h1>
-                                    <small className="dark:text-white/75 text-zinc-700">Software Engineer</small>
+                                    <small className="dark:text-white/75 text-zinc-700">Full-stack web developer</small>
                                 </div>
                             </div>
                             <ul className="hidden lg:flex items-center gap-12 justify-evenly me-8">
@@ -90,7 +90,7 @@ function Navbar({className, open, setOpen}: {
                         </div>
                         <div className="flex flex-col gap-0">
                             <h1 className="dark:text-white/95 text-zinc-700 font-bold text-lg mb-0">Sh.Shakhzodbek</h1>
-                            <small className="dark:text-white/75 text-zinc-700">Software Engineer</small>
+                            <small className="dark:text-white/75 text-zinc-700">Full-stack web developer</small>
                         </div>
                     </div>
                     <div>
