@@ -11,6 +11,8 @@ import {socials} from "@/constants/socials";
 import {Badge} from "./Badge";
 import {AnimatePresence, motion} from "framer-motion";
 
+import {downloadCV} from "@/components/DownloadCVButton";
+
 export const Sidebar = ({
                             open,
                             setOpen,
@@ -43,13 +45,14 @@ export const Sidebar = ({
                         animate={{x: 0}}
                         transition={{duration: 0.2, ease: "linear"}}
                         exit={{x: -200}}
+                        onClick={() => downloadCV()}
                         className="px-6 z-[100] overflow-scroll border-r border-r-gray-700 py-10 pb-20 sm:pb-10 dark:bg-gray-950 bg-neutral-100 max-w-[18rem] w-[24rem] fixed top-0 h-screen left-0 flex flex-col justify-between"
                     >
                         <div>
                             <SidebarHeader/>
                             <Navigation setOpen={setOpen}/>
                         </div>
-                        <Badge href="/resume" text="Read Resume"/>
+                        <Badge href="#" text="Download Resume"/>
                     </motion.div>
                 )}
             </AnimatePresence>

@@ -1,25 +1,26 @@
 import React from "react";
 
-export function DownloadCVButton() {
-    const downloadCV = async () => {
-        try {
-            const response = await fetch('https://raw.githubusercontent.com/Shakh7/assets/main/shakhzodbek_sharipov.pdf');
-            if (!response.ok) throw new Error('Download failed');
+export const downloadCV = async () => {
+    try {
+        const response = await fetch('https://raw.githubusercontent.com/Shakh7/assets/main/shakhzodbek_sharipov.pdf');
+        if (!response.ok) throw new Error('Download failed');
 
-            const blob = await response.blob();
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.style.display = 'none';
-            a.href = url;
-            a.download = 'shakhzodbek_sharipov.pdf';
-            document.body.appendChild(a);
-            a.click();
-            window.URL.revokeObjectURL(url);
-        } catch (error) {
-            console.error('Download error:', error);
-            alert('Failed to download the CV. Please try again later.');
-        }
-    };
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = 'shakhzodbek_sharipov.pdf';
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+    } catch (error) {
+        console.error('Download error:', error);
+        alert('Failed to download the CV. Please try again later.');
+    }
+};
+
+export function DownloadCVButton() {
 
     return (
         <button
