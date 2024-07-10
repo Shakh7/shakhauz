@@ -1,11 +1,9 @@
-import {ThreeDCardDemo} from "@/components/3DCard"
-import {NavbarMenu} from "@/components/NavbarMenu"
-import {HeroBackground} from "@/components/hero/HeroBackground"
+import {HeroPage} from "@/components/hero/"
 
 export default function Home() {
     return (
-        <div>
-            <HeroBackground/>
-        </div>
+        <main>
+            <HeroPage/>
+        </main>
     );
 }

@@ -8,6 +8,7 @@ import {Sidebar} from "@/components/Sidebar";
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/solid'
 
 import {navlinks} from "@/constants/navlinks";
+import {DownloadCVButton} from "@/components";
 
 export function NavbarMenu() {
     const [open, setOpen] = useState(false);
@@ -77,16 +78,7 @@ function Navbar({className, open, setOpen}: {
                 </div>
                 <div className="col-span-2 text-end h-full">
                     <div className="flex justify-end h-full items-center">
-                        <button
-                            className="px-8 py-5 rounded-md border border-black
-                            dark:bg-transparent dark:text-white
-                            dark:border-white/25 bg-white text-black text-lg
-                            dark:hover:shadow-[4px_4px_0px_0px_rgba(255,255,255)]
-                            hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)]
-                            transition duration-200"
-                        >
-                            Download CV
-                        </button>
+                        <DownloadCVButton/>
                     </div>
                 </div>
             </div>

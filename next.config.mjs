@@ -4,12 +4,28 @@ const nextConfig = {
         ignoreDuringBuilds: process.env.NEXT_PUBLIC_DISABLE_ESLINT === 'true',
     },
     images: {
-        domains: [
-            'images.unsplash.com',
-            'raw.githubusercontent.com',
-            'api.microlink.io',
-            'www.youtube.com',
-        ],
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+                port: '',
+            },
+            {
+                protocol: 'https',
+                hostname: 'raw.githubusercontent.com',
+                port: '',
+            },
+            {
+                protocol: 'https',
+                hostname: 'api.microlink.io',
+                port: '',
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.youtube.com',
+                port: '',
+            },
+        ]
     },
 };
 
